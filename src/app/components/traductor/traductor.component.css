@@ -1,0 +1,54 @@
+/* Custom Fonts Styles */
+
+.translate-title,
+.translate-subtitle {
+  font-family: "Star Wars Jedi";
+}
+
+.galactic-basic {
+  font-family: "Galactic Basic";
+}
+
+.galactic-basic-hollow {
+  font-family: "Star Wars Jedi Hollow";
+}
+
+/* Page Styles */
+.translate-main-content {
+  width: 100%;
+  min-height: 100vh;
+  max-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.basic-traductor-content {
+  width: 100%;
+  margin-top: 25px;
+}
+
+.textarea-content {
+  width: 100%;
+  height: 200px;
+}
+
+.textarea-title {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+textarea {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  outline: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  resize: none;
+  background: rgba(0, 0, 0, 0.8);
+  font-weight: bold;
+  padding: 10px;
+}

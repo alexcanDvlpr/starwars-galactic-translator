@@ -1,0 +1,43 @@
+/* You can add global styles to this file, and also import other style files */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #EFECEC;
+}
+
+body {
+  background-color: black;
+  background-image: radial-gradient(
+      white,
+      rgba(255, 255, 255, 0.2) 2px,
+      transparent 40px
+    ),
+    radial-gradient(white, rgba(255, 255, 255, 0.15) 1px, transparent 30px),
+    radial-gradient(white, rgba(255, 255, 255, 0.1) 2px, transparent 40px),
+    radial-gradient(
+      rgba(255, 255, 255, 0.4),
+      rgba(255, 255, 255, 0.1) 2px,
+      transparent 30px
+    );
+  background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+  background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+}
+
+/* Import Star Wars Fonts from assets */
+@font-face {
+  font-family: "Galactic Basic";
+  src: local("Galactic Basic"),
+    url(./assets/fonts/galbasic.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Star Wars Jedi";
+  src: local("Star Wars Jedi"),
+    url(./assets/fonts/starjedi.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Star Wars Jedi Hollow";
+  src: local("Star Wars Jedi Hollow"),
+    url(./assets/fonts/starjhol.ttf) format("truetype");
+}

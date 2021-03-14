@@ -1,0 +1,43 @@
+<div class="translate-main-content">
+  <div class="container pt-4">
+    <div class="row">
+      <div class="col-12">
+        <h1 class="translate-title text-center">Galactic Basic Translator</h1>
+        <h5 class="translate-subtitle text-center">Translate your texts</h5>
+        <h6 class="translate-subtitle text-center">
+          Earthling <i class="fas fa-long-arrow-alt-right"></i> Star Wars
+          Galactic Basic
+        </h6>
+      </div>
+    </div>
+    <div class="basic-traductor-content">
+      <div class="row">
+        <div class="col-12 col-sm-6">
+          <label class="textarea-content">
+            <span class="galactic-basic-hollow textarea-title"
+              >🌍 Earthling (English)</span
+            >
+            <textarea
+              class="translate-textarea terricola"
+              [(ngModel)]="translateText"
+              placeholder="A good droid is a dead one"
+            ></textarea>
+          </label>
+        </div>
+        <div class="col-12 col-sm-6">
+          <label class="textarea-content">
+            <span class="galactic-basic-hollow textarea-title"
+              >🌌 Galactic Basic</span
+            >
+            <textarea
+              class="translate-textarea galactic-basic"
+              [(ngModel)]="translateText"
+              placeholder="A good droid is a dead one"
+              readonly="true"
+            ></textarea>
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
