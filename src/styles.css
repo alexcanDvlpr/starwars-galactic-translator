@@ -29,15 +29,15 @@ body {
 @font-face {
   font-family: "Galactic Basic";
   src: local("Galactic Basic"),
-    url(../src/assets/fonts/galbasic.ttf) format("truetype");
+    url(app/lib/fonts/galbasic.ttf) format("truetype");
 }
 @font-face {
   font-family: "Star Wars Jedi";
   src: local("Star Wars Jedi"),
-    url(../src/assets/fonts/starjedi.ttf) format("truetype");
+    url(app/lib/fonts/starjedi.ttf) format("truetype");
 }
 @font-face {
   font-family: "Star Wars Jedi Hollow";
   src: local("Star Wars Jedi Hollow"),
-    url(../src/assets/fonts/starjhol.ttf) format("truetype");
+    url(app/lib/fonts/starjhol.ttf) format("truetype");
 }
